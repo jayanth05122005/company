@@ -1,65 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>sri venkateswara trading and research institute chennai</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
-        header { background-color: #2c3e50; color: white; padding: 20px 0; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; }
-        nav { margin-top: 10px; }
-        section { padding: 40px 20px; background-color: white; margin: 20px auto; max-width: 1000px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        footer { background-color: #2c3e50; color: white; text-align: center; padding: 20px 0; margin-top: 40px; }
-        .course { border-bottom: 1px solid #ddd; padding: 10px 0; }
-        input, textarea { width: 100%; padding: 10px; margin: 10px 0; }
-        button { background-color: #2980b9; color: white; border: none; padding: 10px 20px; cursor: pointer; }
-        button:hover { background-color: #3498db; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TradeMaster - Online Trading Classes</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fef6f6;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff6b6b, #f94d6a, #f8b400);
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #f8b400 40%, #fae392 100%);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      color: #222;
+    }
+
+    .hero p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 25px;
+      background-color: #ff6b6b;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .courses, .instructor, .testimonials {
+      background-color: #f0f8ff;
+      border-radius: 12px;
+      margin: 20px auto;
+      max-width: 1000px;
+      padding: 30px;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    .course-list, .testimonial-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .course-item, .testimonial-item {
+      background-color: #fff;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px;
+      width: 280px;
+      box-shadow: 2px 2px 12px rgba(0,0,0,0.05);
+    }
+
+    .instructor img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      border: 3px solid #f94d6a;
+    }
+
+    .contact {
+      background-color: #ffe9e3;
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      border-radius: 10px;
+    }
+
+    .contact form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact input, .contact textarea {
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    .contact button {
+      background-color: #f94d6a;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #444;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .course-list, .testimonial-list {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1 style="color: yellow;">sri venkateswara trading and research institute of technology chennai </h1>
-        <h2 style="color: yellow;">FOUNDER PRESIENT MR.JAYANTH.V HONS(HRM NDICATORS )</h2> 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#courses">Courses</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <header>
+    <h1>TradeMaster</h1>
+    <nav>
+      <a href="#courses">Courses</a>
+      <a href="#instructor">Instructor</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <section id="home">
-        <h2>Welcome to sri venkateswara trading and research institute of technology founder mr
-        jayanth.v</h2>
-        <p>Empowering students through quality education and professional development in there trading knoweledge.</p>
-    </section>
+  <section class="hero">
+    <h2>Master the Art of Online Trading</h2>
+    <p>Join thousands of learners. Get real-world trading strategies, tools, and mentorship.</p>
+    <a href="#courses" class="btn">Start Learning</a>
+  </section>
 
-    <section id="commotityes">
-        <h2>Our Courses</h2>
-        <div class="course">
-            <h3>ALL INDICATORS PACK FOR EARNING</h3>
-            <p>Learn the fundamentals of all important indicators.</p>
-        </div>
-        <div class="course">
-            <h3>CHART ANALYSIS </h3>
-            <p>Japan candel, indian candel etc .</p>
-        </div>
-        <div class="course">
-            <h3>COMMODITY,F&0 SEGMENTS</h3>
-            <p> Both Call&put Options And Nifty,Sensex,Gold, CroudOilm </p>.</p>
-        </div>
-    </section>
+  <section class="courses" id="courses">
+    <h3>Our Courses</h3>
+    <div class="course-list">
+      <div class="course-item">
+        <h4>Beginner Trading</h4>
+        <p>Learn the basics of stock markets, charts, and risk management.</p>
+      </div>
+      <div class="course-item">
+        <h4>Technical Analysis</h4>
+        <p>Master chart patterns, indicators, and entry/exit strategies.</p>
+      </div>
+      <div class="course-item">
+        <h4>Options & Futures</h4>
+        <p>Advanced strategies for leveraging options & derivatives.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Bright Future Institute is dedicated to helping students and professionals gain practical skills for real-world success. Our experience
-    </section>
-    <section id="contact">
-        <h2>contact</h2>
-        <p> for any informations contact us</p>
-        <p> +91 9444341845 </p>
-        <p> venjayanth05@gmail.com </p>
+  <section class="instructor" id="instructor">
+    <h3>Your Mentor</h3>
+    <img src="https://via.placeholder.com/120" alt="Instructor">
+    <p><strong>Mr. Arjun Desai</strong><br>
+    12+ years of trading experience | Ex-Investment Banker | Passionate Teacher</p>
+  </section>
 
-    </section>
+  <section class="testimonials" id="testimonials">
+    <h3>What Students Say</h3>
+    <div class="testimonial-list">
+      <div class="testimonial-item">
+        <p>"Absolutely life-changing! I made my first profitable trade within a week!"</p>
+        <strong>- Priya M.</strong>
+      </div>
+      <div class="testimonial-item">
+        <p>"The strategies are explained so clearly. Highly recommend this class!"</p>
+        <strong>- Rahul T.</strong>
+      </div>
+      <div class="testimonial-item">
+        <p>"The mentorship and community support are amazing!"</p>
+        <strong>- Ayesha N.</strong>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h3>Contact Us</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required/>
+      <input type="email" placeholder="Your Email" required/>
+      <textarea rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TradeMaster. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
