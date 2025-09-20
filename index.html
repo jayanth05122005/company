@@ -1,240 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SRI VENKATESWARA TRADING INSTITUTE </title>
-   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Trading Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
 
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #fef6f6;
-      color: #333;
-    }
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 15px 20px;
+            position: relative;
+        }
 
-    header {
-      background: linear-gradient(90deg, #ff6b6b, #f94d6a, #f8b400);
-      color: white;
-      padding: 20px 40px;
-      text-align: center;
-    }
+        .venkateshwara-img {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+            border-radius: 8px;
+        }
 
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
+        .header-title {
+            font-size: 24px;
+        }
 
-    nav {
-      margin-top: 10px;
-    }
+        .hero {
+            padding: 50px;
+            text-align: center;
+            background-color: #fff;
+        }
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
+        .hero h1 {
+            font-size: 36px;
+            color: #333;
+        }
 
-    .hero {
-      background: linear-gradient(135deg, #f8b400 40%, #fae392 100%);
-      padding: 60px 20px;
-      text-align: center;
-    }
+        .hero p {
+            font-size: 18px;
+            color: #555;
+        }
 
-    .hero h2 {
-      font-size: 2.2rem;
-      color: #222;
-    }
+        .telegram-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0088cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
 
-    .hero p {
-      margin-top: 10px;
-      font-size: 1.2rem;
-      color: #333;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 25px;
-      background-color: #ff6b6b;
-      color: white;
-      border: none;
-      border-radius: 25px;
-      font-weight: bold;
-      cursor: pointer;
-      text-decoration: none;
-    }
-
-    section {
-      padding: 50px 20px;
-      text-align: center;
-    }
-
-    .courses, .instructor, .testimonials {
-      background-color: #f0f8ff;
-      border-radius: 12px;
-      margin: 20px auto;
-      max-width: 1000px;
-      padding: 30px;
-    }
-
-    h3 {
-      font-size: 1.8rem;
-      color: #444;
-      margin-bottom: 20px;
-    }
-
-    .course-list, .testimonial-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
-
-    .course-item, .testimonial-item {
-      background-color: #fff;
-      border: 2px solid #ddd;
-      border-radius: 10px;
-      padding: 20px;
-      margin: 10px;
-      width: 280px;
-      box-shadow: 2px 2px 12px rgba(0,0,0,0.05);
-    }
-
-    .instructor img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      margin-bottom: 10px;
-      border: 3px solid #f94d6a;
-    }
-
-    .contact {
-      background-color: #ffe9e3;
-      padding: 40px 20px;
-      max-width: 800px;
-      margin: auto;
-      border-radius: 10px;
-    }
-
-    .contact form {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .contact input, .contact textarea {
-      padding: 10px;
-      margin: 10px 0;
-      border: 1px solid #aaa;
-      border-radius: 5px;
-      font-size: 1rem;
-    }
-
-    .contact button {
-      background-color: #f94d6a;
-      color: white;
-      padding: 10px;
-      border: none;
-      border-radius: 5px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-    footer {
-      background-color: #444;
-      color: white;
-      text-align: center;
-      padding: 15px;
-    }
-
-    @media (max-width: 768px) {
-      .course-list, .testimonial-list {
-        flex-direction: column;
-        align-items: center;
-      }
-    }
-  </style>
-  
+        footer {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
 
-  <header>
-    <h1>SRI VENKATESWARA TRADING INSTITUTE </h1>
-    <nav>
-      <a href="#courses">Courses</a>
-      <a href="#instructor">Instructor</a>
-      <a href="#testimonials">Reviews</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <!-- Header -->
+    <header>
+        <div class="header-title">📈 Online Trading Hub</div>
+        <!-- Lord Venkateshwara Image -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Tirumala_2008-2.jpg" 
+             alt="Lord Venkateshwara" class="venkateshwara-img">
+    </header>
 
-  <section class="hero">
-    <h2>FOUNDER PRESIDENT MR.JAYANTH.V(HRM IN INDICATORS IN OPTION CHAIN)</h2>
-    <h2>PRINCIPLE. MR VENKATARAMAN.N(ITI)</h2>
-    <p>MAKE YOUR FUTURE FULL OF MEANING FULL WITH OURS MENTORS HELPS </p>
-    <a href="#courses" class="btn">Start Learning</a>
-  </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to the Future of Trading</h1>
+        <p>Join our community and start your journey in online trading.</p>
 
-  <section class="courses" id="courses">
-    <h3>Our Courses in online</h3>
-    <div class="course-list">
-      <div class="course-item">
-        <h4>BEGINING A TRADER [LEV.1] </h4>
-        <p>Learn the basics of stock markets, charts, and risk management.</p>
-      </div>
-      <div class="course-item">
-        <h4>TECHNICAL ANALYSIS [LEV.2]</h4>
-        <p>Master chart patterns, indicators, and entry/exit strategies.</p>
-      </div>
-      <div class="course-item">
-        <h4>Futures OPTIONS & FUTURES</h4>
-        <p>Advanced strategies for leveraging options & derivatives.</p>
-      </div>
-    </div>
-  </section>
+        <!-- Telegram Link Button -->
+        <a href="https://t.me/yourchannelname" target="_blank" class="telegram-button">
+            Join us on Telegram
+        </a>
+    </section>
 
-  <section class="instructor" id="instructor">
-    <h3>Your Mentor</h3>
-    <img src="Screenshot_2025-07-06-14-09-22-82.jpg  alt="Instructor">
-    <p><strong>Mr.JAYANTH.V </strong><br>
-   EXPERIENCE IN CHART ANALYSIS,SPEALIST IN OPTION CHAIN</p>
-  </section>
-
-  <section class="testimonials" id="testimonials">
-    <h3>What Students Say</h3>
-    <div class="testimonial-list">
-      <div class="testimonial-item">
-        <p>"Absolutely life-changing! I made my first profitable trade within a week!"</p>
-        <strong>- MARIAPPAN.K</strong>
-      </div>
-      <div class="testimonial-item">
-        <p>"The strategies are explained so clearly. Highly recommend this class!"</p>
-        <strong>- Rahul T.</strong>
-      </div>
-      <div class="testimonial-item">
-        <p>"The mentorship and community support are amazing!"</p>
-        <strong>- Ayesha N.</strong>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <h3>Contact Us</h3>
-    <form>
-      <input type="text" placeholder="Your Name" required/>
-      <input type="email" placeholder="Your Email" required/>
-      <textarea rows="4" placeholder="Your Message"></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 SRI VENKATESWARA TRADING INSTITUTE . All rights reserved.</p>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Online Trading Hub. All rights reserved.
+    </footer>
 
 </body>
 </html>
